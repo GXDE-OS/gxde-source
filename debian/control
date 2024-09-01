@@ -1,4 +1,4 @@
-Source: gxde-testing-source
+Source: gxde-source
 Section: utils
 Priority: optional
 Maintainer: gfdgd_xi <3025613752@qq.com>
@@ -6,11 +6,12 @@ Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
-Homepage: https://gitee.com/GXDE-OS/gxde-testing-source
+Homepage: https://gitee.com/GXDE-OS/gxde-source
 
-Package: gxde-testing-source
+Package: gxde-source
 Architecture: all
+Conflicts: deepin-desktop-base (<< 2024.09.01)
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
-Description: GXDE Testing Source
+Description: GXDE Source

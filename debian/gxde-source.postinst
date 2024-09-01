@@ -1,0 +1,9 @@
+#!/bin/bash
+if [[ -f /var/lib/dpkg/info/deepin-desktop-base.list ]]; then
+    exit 0
+fi
+echo 安装完成后可以输入以下命令安装 GXDE 桌面环境：
+echo "  sudo apt update"
+echo "  sudo apt install gxde-desktop --install-recommends"
+echo 同时也可以输入以下命令加入测试源：
+echo "  sudo apt install gxde-testing-source"
