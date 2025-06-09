@@ -1,6 +1,7 @@
-gxde-source (1.1.8) UNRELEASED; urgency=medium
+gxde-source (1.1.9) UNRELEASED; urgency=medium
 
   * 新增山东大学镜像站地址
   * Lizhi 默认开启 backports 源
+  * 新增 hetao
 
- -- gfdgd_xi <3025613752@qq.com>  Fri, 02 May 2025 11:29:44 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Mon, 09 Jun 2025 12:27:56 +0800

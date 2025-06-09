@@ -13,3 +13,4 @@ install:
 	if [ "$(GXDE_CODENAME)" = "tianlu" ]; then cp -rv gxde-bixie.list $(DESTDIR)/etc/apt/sources.list.d/gxde.list ; fi
 	if [ "$(GXDE_CODENAME)" = "bixie" ]; then cp -rv gxde-bixie.list $(DESTDIR)/etc/apt/sources.list.d/gxde.list ; fi
 	if [ "$(GXDE_CODENAME)" = "meimei" ]; then cp -rv gxde-meimei.list $(DESTDIR)/etc/apt/sources.list.d/gxde.list ; fi
+	if [ "$(GXDE_CODENAME)" = "hetao" ]; then cp -rv gxde-hetao.list $(DESTDIR)/etc/apt/sources.list.d/gxde.list ; fi
